@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="../../public/css/root.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#121212]">
+    <header>
+      <nav
+        class="flex items-center justify-between px-4 py-5 bg-[#121212] sticky top-0 z-50 border-b border-gray-800"
+      >
+        <div
+          class="mx-auto flex w-full max-w-7xl items-center justify-between max-lg:px-4 max-md:px-0"
+        >
+          <!-- Logo -->
+          <a
+            href="/index.html"
+            class="text-3xl font-bold text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 max-sm:text-xl font-['Lobster_Two']"
+          >
+            JOSEPHINE'S
+          </a>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="mobile-menu-btn"
+            class="lg:hidden text-[#fffeee] text-2xl"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+
+          <!-- Desktop Navigation -->
+          <ul id="desktop-nav" class="hidden lg:flex gap-6 text-2xl">
+            <li>
+              <a
+                href="./home.html"
+                class="relative text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-[var(--color-primary-600)] after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="./menu.html"
+                class="relative text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-[var(--color-primary-600)] after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Menu
+              </a>
+            </li>
+            <li>
+              <a
+                href="./order.html"
+                class="relative text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-[var(--color-primary-600)] after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Checkout
+              </a>
+            </li>
+            <li>
+              <a
+                href="./reservation.html"
+                class="relative text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-[var(--color-primary-600)] after:transition-all after:duration-300 hover:after:w-full"
+              >
+                Reserve Table
+              </a>
+            </li>
+          </ul>
+
+          <!-- User Dropdown -->
+          <div class="relative hidden lg:block">
+            <button
+              onclick="toggleDropdown()"
+              class="flex items-center gap-2 text-xl text-[#fffeee] px-4 py-2 rounded-md hover:bg-[#2a2a2a] transition-all duration-300 border border-transparent hover:border-gray-700"
+            >
+              <i class="bi bi-person-circle text-2xl"></i>
+              <span id="user" class="font-medium"></span>
+              <i class="bi bi-chevron-down text-sm transition-transform duration-300" id="dropdown-icon"></i>
+            </button>
+            <div
+              id="dropdown-menu"
+              class="absolute right-0 mt-2 w-56 bg-[#1e1e1e] rounded-lg shadow-2xl hidden z-50 border border-gray-700 overflow-hidden transition-all duration-300 opacity-0"
+            >
+              <div class="py-2">
+                <div class="px-4 py-3 border-b border-gray-700">
+                  <p class="text-xs text-gray-400 uppercase tracking-wide">Account</p>
+                  <p class="text-sm text-[#fffeee] font-medium mt-1" id="dropdown-user"></p>
+                </div>
+                <button
+                  id="logout"
+                  class="w-full px-4 py-3 text-sm text-left text-[#fffeee] hover:bg-red-600 hover:text-white transition-all duration-300 flex items-center gap-3"
+                >
+                  <i class="bi bi-box-arrow-right text-lg"></i>
+                  <span class="font-medium">Logout</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div
+          id="mobile-nav"
+          class="hidden lg:hidden absolute top-full left-0 w-full bg-[#1e1e1e] border-b border-gray-700 z-40"
+        >
+          <div class="px-4 py-4 space-y-3">
+            <a
+              href="./home.html"
+              class="block text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 py-2"
+            >
+              <i class="bi bi-house mr-2"></i>Home
+            </a>
+            <a
+              href="./menu.html"
+              class="block text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 py-2"
+            >
+              <i class="bi bi-journal-text mr-2"></i>Menu
+            </a>
+            <a
+              href="./order.html"
+              class="block text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 py-2"
+            >
+              <i class="bi bi-cart-check mr-2"></i>Checkout
+            </a>
+            <a
+              href="./reservation.html"
+              class="block text-[#fffeee] hover:text-[var(--color-primary-600)] transition-colors duration-300 py-2"
+            >
+              <i class="bi bi-calendar-event mr-2"></i>Reserve Table
+            </a>
+            <hr class="border-gray-600 my-3" />
+            <div class="flex items-center gap-2 text-[#fffeee] py-2 px-2 bg-[#2a2a2a] rounded-md">
+              <i class="bi bi-person-circle text-xl"></i>
+              <span id="user" class="font-medium"></span>
+            </div>
+            <button
+              class="w-full text-left flex items-center gap-3 text-red-400 hover:text-white hover:bg-red-600 transition-all duration-300 py-3 px-4 rounded-md mt-2"
+            >
+              <i class="bi bi-box-arrow-right text-lg"></i>
+              <span class="font-medium">Logout</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="px-4 max-w-7xl mx-auto pb-32">
+      <h1
+        class="text-4xl font-['Lobster_Two'] text-center my-10 text-yellow-500 max-sm:text-3xl"
+      >
+        Discover our Menu
+      </h1>
+
+      <!-- Category Navigation - Responsive -->
+      <div
+        class="flex flex-wrap items-center justify-center gap-4 lg:gap-20 mb-10"
+      >
+            <button
+              class="mini-nav-btn relative text-[#fffeee] text-xl lg:text-2xl hover:text-yellow-500 transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full px-2 py-1"
+              onclick="showCategory('appetizers')"
+            >
+              Appetizers
+            </button>
+            <button
+              class="mini-nav-btn relative text-[#fffeee] text-xl lg:text-2xl hover:text-yellow-500 transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full px-2 py-1"
+              onclick="showCategory('mains')"
+            >
+              Mains
+            </button>
+            <button
+              class="mini-nav-btn relative text-[#fffeee] text-xl lg:text-2xl hover:text-yellow-500 transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full px-2 py-1"
+              onclick="showCategory('pasta')"
+            >
+              Pasta
+            </button>
+            <button
+              class="mini-nav-btn relative text-[#fffeee] text-xl lg:text-2xl hover:text-yellow-500 transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full px-2 py-1"
+              onclick="showCategory('drinks')"
+            >
+              Drinks
+            </button>
+            <button
+              class="mini-nav-btn relative text-[#fffeee] text-xl lg:text-2xl hover:text-yellow-500 transition-colors duration-300 after:absolute after:left-0 after:bottom-[-2px] after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all after:duration-300 hover:after:w-full px-2 py-1"
+              onclick="showCategory('desserts')"
+            >
+              Desserts
+            </button>
+      </div>
+
+      <!-- Appetizers Section -->
+      <div id="appetizers" class="menu-category">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Caesar.jpg"
+                  alt="Classic Caesar Salad"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Classic Caesar Salad</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱298</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Classic Caesar Salad', 298)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Classic Caesar Salad', 298)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Greek.jpg"
+                  alt="Greek Salad"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Greek Salad</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱280</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Greek Salad', 280)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Greek Salad', 280)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Tomato.jpg"
+                  alt="Tomato Soup with Grilled Cheese Sandwich"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">
+                Tomato Soup with Grilled Cheese Sandwich
+              </h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱288</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Tomato Soup with Grilled Cheese Sandwich', 288)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Tomato Soup with Grilled Cheese Sandwich', 288)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Caviar.jpg"
+                  alt="Smoked Salmon In Caviar"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">
+                Smoked Salmon In Caviar
+              </h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱408</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Smoked Salmon In Caviar', 408)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Smoked Salmon In Caviar', 408)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mains Section -->
+        <div id="mains" class="menu-category hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/ribeye.jpg"
+                  alt="Ribeye Steak"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Ribeye Steak</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">
+                Includes creamy mashed potato, buttered veggies, and hearty mushroom soup. ₱698
+              </p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Ribeye Steak', 698)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Ribeye Steak', 698)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/angus.jpg"
+                  alt="Antonio's Angus Burger"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Antonio's Angus Burger</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱488</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal(`Antonio's Angus Burger`, 488)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart(`Antonio's Angus Burger`, 488)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/chicken.jpg"
+                  alt="Classic Fried Chicken and 2pc BBQ"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Classic Fried Chicken and 2pc BBQ</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱450</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Classic Fried Chicken and 2pc BBQ', 450)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Classic Fried Chicken and 2pc BBQ', 450)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Ribs.jpg"
+                  alt="Pom's Baked Ribs"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Pom's Baked Ribs</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱598</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal(`Pom's Baked Ribs`, 598)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart(`Pom's Baked Ribs`, 598)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta Section -->
+        <div id="pasta" class="menu-category hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Andrea.jpg"
+                  alt="Andrea Pasta"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Andrea Pasta</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱298</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Andrea Pasta', 298)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Andrea Pasta', 298)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Shrimp.jpg"
+                  alt="Scarlet's Shrimp Scampi"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">
+                Scarlet's Shrimp Scampi
+              </h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">
+                Peeled prawns, garlic, tomatoes, olive oil, and parmesan cheese. ₱258
+              </p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal(`Scarlet's Shrimp Scampi`, 258)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart(`Scarlet's Shrimp Scampi`, 258)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drinks Section -->
+        <div id="drinks" class="menu-category hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Mango.jpg"
+                  alt="Mango Shake"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Mango Shake</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱150</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Mango Shake', 150)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Mango Shake', 150)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/watermelon.jpg"
+                  alt="Watermelon Shake"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Watermelon Shake</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱150</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal('Watermelon Shake', 150)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart('Watermelon Shake', 150)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts Section -->
+        <div id="desserts" class="menu-category hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="flex flex-col p-6 bg-gray-800 bg-opacity-30 rounded-lg border border-gray-700 hover:border-yellow-500 transition-all duration-300 group"
+            >
+              <div class="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                <img
+                  src="../../public/images/menu/Affogato.jpg"
+                  alt="Mad Doc's Affogato"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h2 class="text-xl font-medium text-center text-[#fffeee]">Mad Doc's Affogato</h2>
+              <p class="text-center text-yellow-200 mt-2 mb-4">₱180</p>
+              <div class="flex gap-2 mt-auto">
+                <button
+                  onclick="openCustomizeModal(`Mad Doc's Affogato`, 180)"
+                  class="flex-1 bg-gray-700 text-[#fffeee] py-2 px-3 rounded-md hover:bg-gray-600 transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-pencil mr-1"></i>Customize
+                </button>
+                <button
+                  onclick="quickAddToCart(`Mad Doc's Affogato`, 180)"
+                  class="flex-1 bg-[var(--color-primary-600)] text-[#121212] py-2 px-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 text-sm font-semibold"
+                >
+                  <i class="bi bi-cart-plus mr-1"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!-- Floating Cart Button (shows cart panel) -->
+      <button
+        onclick="toggleCartPanel()"
+        id="cart-toggle-btn"
+        class="fixed bottom-6 right-6 bg-[var(--color-primary-600)] text-[#121212] w-16 h-16 rounded-full shadow-2xl hover:bg-[var(--color-primary-700)] transition-all duration-300 z-40 flex items-center justify-center"
+      >
+        <i class="bi bi-cart3 text-2xl"></i>
+  <span id="floating-cart-count" class="absolute -top-2 -right-2 bg-red-600 text-white w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold pointer-events-none">0</span>
+      </button>
+
+      <!-- Cart Panel (slides from bottom) -->
+      <div id="cart-panel" class="fixed bottom-0 left-0 right-0 bg-[#1e1e1e] border-t-2 border-[var(--color-primary-600)] shadow-2xl transform translate-y-full transition-transform duration-300 z-50 max-h-[70vh] flex flex-col">
+        <div class="bg-[var(--color-primary-600)] px-6 py-4 flex items-center justify-between">
+          <h2 class="text-2xl font-bold text-[#121212] font-['Lobster_Two'] flex items-center">
+            <i class="bi bi-cart3 mr-2"></i>Your Cart
+            <span id="cart-count-panel" class="bg-[#121212] text-[var(--color-primary-600)] px-3 py-1 rounded-full text-sm ml-3">0</span>
+          </h2>
+          <button onclick="toggleCartPanel()" class="text-[#121212] hover:text-[#2a2a2a] text-2xl">
+            <i class="bi bi-chevron-down"></i>
+          </button>
+        </div>
+        
+        <div class="flex-1 overflow-y-auto p-6" id="cart-items-container">
+          <!-- Cart items will be dynamically added here -->
+          <div id="empty-cart-message" class="text-center py-8 text-gray-400">
+            <i class="bi bi-cart-x text-5xl mb-3 block"></i>
+            <p class="text-lg">Your cart is empty</p>
+            <p class="text-sm">Add items from the menu!</p>
+          </div>
+        </div>
+        
+        <div id="cart-summary" class="hidden border-t border-gray-700 p-6 bg-[#2a2a2a]">
+          <div class="flex justify-between items-center mb-4">
+            <span class="text-lg font-semibold text-[#fffeee]">Total:</span>
+            <span id="cart-total" class="text-2xl font-bold text-[var(--color-primary-600)]">₱0.00</span>
+          </div>
+          <button
+            onclick="proceedToCheckout()"
+            class="w-full bg-[var(--color-primary-600)] text-[#121212] py-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 font-semibold text-lg"
+          >
+            <i class="bi bi-credit-card mr-2"></i>Proceed to Checkout
+          </button>
+        </div>
+      </div>
+
+      <!-- Customization Modal -->
+      <div id="customize-modal" class="hidden fixed inset-0 bg-black bg-opacity-75 z-50 p-4" style="display: none;">
+        <div class="flex items-center justify-center min-h-screen">
+        <div class="bg-[#1e1e1e] rounded-lg border border-gray-700 w-full max-w-md">
+          <div class="bg-[var(--color-primary-600)] px-6 py-4 flex justify-between items-center">
+            <h2 class="text-xl font-bold text-[#121212] font-['Lobster_Two']">
+              <i class="bi bi-pencil-square mr-2"></i>Customize Your Order
+            </h2>
+            <button onclick="closeCustomizeModal()" class="text-[#121212] hover:text-[#2a2a2a] text-2xl">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+          <div class="p-6">
+            <div class="mb-4">
+              <h3 id="modal-product-name" class="text-xl font-semibold text-[#fffeee] mb-2"></h3>
+              <p id="modal-product-price" class="text-lg text-yellow-200"></p>
+            </div>
+            <div class="mb-4">
+              <label for="customize-quantity" class="block text-sm font-medium text-[#fffeee] mb-2">
+                Quantity:
+              </label>
+              <input
+                type="number"
+                id="customize-quantity"
+                value="1"
+                min="1"
+                class="w-full p-2 rounded-md bg-[#2a2a2a] text-[#fffeee] border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-600)]"
+              />
+            </div>
+            <div class="mb-6">
+              <label for="customize-notes" class="block text-sm font-medium text-[#fffeee] mb-2">
+                Special Instructions / Customizations:
+              </label>
+              <textarea
+                id="customize-notes"
+                placeholder="e.g., No onions, extra sauce, well done..."
+                class="w-full p-3 rounded-md bg-[#2a2a2a] text-[#fffeee] border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary-600)] h-32 resize-none"
+              ></textarea>
+            </div>
+            <button
+              onclick="addCustomizedItemToCart()"
+              class="w-full bg-[var(--color-primary-600)] text-[#121212] py-3 rounded-md hover:bg-[var(--color-primary-700)] transition-colors duration-300 font-semibold"
+            >
+              <i class="bi bi-cart-plus mr-2"></i>Add to Cart
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../../public/js/main.js"></script>
+    <script src="../../public/js/authguard.js"></script>
+    <script src="../../public/js/menu.js"></script>
+    <script src="../../public/js/menu-cart.js"></script>
+  </body>
+</html>
+

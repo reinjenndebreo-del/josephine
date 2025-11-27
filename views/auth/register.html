@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../../public/css/root.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../../public/js/auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-[#121212]">
+    <header>
+      <nav class="flex items-center justify-between px-4 py-5">
+        <div
+          class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
+        >
+          <!-- Logo -->
+          <a
+            href="../../index.html"
+            class="text-xl sm:text-2xl md:text-3xl font-bold text-[var(--color-primary-50)] hover:text-[var(--color-primary-600)] transition-colors duration-300 font-['Lobster_Two']"
+          >
+            JOSEPHINE&apos;S
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main
+      class="flex justify-center items-center h-[90vh] px-4 sm:px-6 lg:px-8"
+    >
+      <!-- Container -->
+      <div
+        class="flex flex-col md:flex-row w-full max-w-4xl rounded-xl overflow-hidden shadow-lg border border-gray-600"
+      >
+        <!-- Image Section -->
+        <div
+          class="w-full md:w-1/2 h-48 sm:h-64 md:h-auto bg-cover bg-center bg-no-repeat"
+          style="
+            background-image: url(&quot;../../public/images/auth.png&quot;);
+          "
+        ></div>
+        <!-- Form Section -->
+        <div
+          class="w-full md:w-1/2 flex flex-col justify-center p-4 sm:p-6 md:p-10"
+        >
+          <h2
+            class="text-2xl sm:text-3xl font-bold mb-6 text-center text-[var(--color-primary-50)]"
+          >
+            REGISTER
+          </h2>
+          <form class="flex flex-col space-y-4 sm:space-y-5" id="registerForm">
+            <!-- Username -->
+            <div>
+              <input
+                type="text"
+                id="username"
+                placeholder="Enter your username"
+                class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-[var(--color-primary-500)] py-2 px-2 text-[var(--color-primary-50)]"
+              />
+            </div>
+            <!-- Email -->
+            <div>
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter your email"
+                class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-[var(--color-primary-500)] py-2 px-2 text-[var(--color-primary-50)]"
+              />
+            </div>
+            <!-- Password -->
+            <div>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                class="w-full bg-transparent border-b border-gray-300 focus:outline-none focus:border-[var(--color-primary-500)] py-2 px-2 text-[var(--color-primary-50)]"
+              />
+            </div>
+            <!-- Register Button -->
+            <button
+              type="submit"
+              class="w-full border border-gray-300 py-2 rounded-md hover:bg-[var(--color-primary-700)] transition text-[var(--color-primary-50)]"
+            >
+              Register
+            </button>
+          </form>
+          <p class="text-center mt-6 text-sm text-[var(--color-primary-50)]">
+            Already have an Account?
+            <a
+              href="./login.html"
+              class="underline text-[var(--color-primary-300)]"
+              >Login Here</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+    <script>
+      // Auth guard for n page
+      document.addEventListener("DOMContentLoaded", () => {
+        if (localStorage.getItem("token")) {
+          window.location.href = "/views/user/home.html";
+        }
+        return;
+      });
+    </script>
+  </body>
+</html>
+

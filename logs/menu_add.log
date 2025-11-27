@@ -1,0 +1,915 @@
+2025-10-29 07:28:22 - Raw data received: {"name":"Tapsilog","description":"a","price":"110","category":"Main Course"}
+2025-10-29 07:28:22 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => a
+    [price] => 110
+    [category] => Main Course
+)
+
+2025-10-29 07:28:22 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-10-29 07:28:22 - Error: Table 'josephine.menu_items' doesn't exist
+2025-10-29 07:28:27 - Raw data received: {"name":"Tapsilog","description":"a","price":"110","category":"Main Course"}
+2025-10-29 07:28:27 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => a
+    [price] => 110
+    [category] => Main Course
+)
+
+2025-10-29 07:28:27 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-10-29 07:28:27 - Error: Table 'josephine.menu_items' doesn't exist
+2025-10-29 07:31:53 - Raw data received: {"name":"Tapsilog","description":"a","price":"110","category":"Appetizer"}
+2025-10-29 07:31:53 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => a
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:31:53 - Processed data: name=Tapsilog, description=a, price=110, category=Appetizer
+2025-10-29 07:31:53 - Item added successfully with ID: 1
+2025-10-29 07:31:59 - Raw data received: {"name":"Tapsilog","description":"a","price":"110","category":"Appetizer"}
+2025-10-29 07:31:59 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => a
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:31:59 - Processed data: name=Tapsilog, description=a, price=110, category=Appetizer
+2025-10-29 07:31:59 - Item added successfully with ID: 2
+2025-10-29 07:45:46 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Main Course"}
+2025-10-29 07:45:46 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Main Course
+)
+
+2025-10-29 07:45:46 - Processed data: name=Tapsilog, description=, price=110, category=Main Course
+2025-10-29 07:45:46 - Item added successfully with ID: 3
+2025-10-29 07:46:03 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:03 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:03 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:03 - Item added successfully with ID: 4
+2025-10-29 07:46:07 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:07 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:07 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:07 - Item added successfully with ID: 5
+2025-10-29 07:46:11 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:11 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:11 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:11 - Item added successfully with ID: 6
+2025-10-29 07:46:15 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:15 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:15 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:15 - Item added successfully with ID: 7
+2025-10-29 07:46:20 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:20 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:20 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:20 - Item added successfully with ID: 8
+2025-10-29 07:46:25 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:25 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:25 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:25 - Item added successfully with ID: 9
+2025-10-29 07:46:30 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:46:30 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:46:30 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:46:30 - Item added successfully with ID: 10
+2025-10-29 07:57:28 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:57:28 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:57:28 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:57:28 - Item added successfully with ID: 11
+2025-10-29 07:57:32 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:57:32 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:57:32 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:57:32 - Item added successfully with ID: 12
+2025-10-29 07:57:32 - Raw data received: {"name":"Tapsilog","description":"","price":"110","category":"Appetizer"}
+2025-10-29 07:57:32 - Parsed data: Array
+(
+    [name] => Tapsilog
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 07:57:32 - Processed data: name=Tapsilog, description=, price=110, category=Appetizer
+2025-10-29 07:57:33 - Item added successfully with ID: 13
+2025-10-29 08:06:15 - Raw data received: {"name":"Tapsiloga","description":"","price":"110","category":"Appetizer"}
+2025-10-29 08:06:15 - Parsed data: Array
+(
+    [name] => Tapsiloga
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 08:06:15 - Processed data: name=Tapsiloga, description=, price=110, category=Appetizer
+2025-10-29 08:06:15 - Item added successfully with ID: 14
+2025-10-29 08:06:19 - Raw data received: {"name":"Tapsiloga","description":"","price":"110","category":"Appetizer"}
+2025-10-29 08:06:19 - Parsed data: Array
+(
+    [name] => Tapsiloga
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 08:06:19 - Processed data: name=Tapsiloga, description=, price=110, category=Appetizer
+2025-10-29 08:06:19 - Item added successfully with ID: 15
+2025-10-29 08:06:23 - Raw data received: {"name":"Tapsiloga","description":"","price":"110","category":"Appetizer"}
+2025-10-29 08:06:23 - Parsed data: Array
+(
+    [name] => Tapsiloga
+    [description] => 
+    [price] => 110
+    [category] => Appetizer
+)
+
+2025-10-29 08:06:23 - Processed data: name=Tapsiloga, description=, price=110, category=Appetizer
+2025-10-29 08:06:23 - Item added successfully with ID: 16
+2025-10-29 08:08:40 - Raw data received: {"name":"Tapsilogan","description":"a","price":"110","category":"Main Course"}
+2025-10-29 08:08:40 - Parsed data: Array
+(
+    [name] => Tapsilogan
+    [description] => a
+    [price] => 110
+    [category] => Main Course
+)
+
+2025-10-29 08:08:40 - Processed data: name=Tapsilogan, description=a, price=110, category=Main Course
+2025-10-29 08:08:40 - Item added successfully with ID: 17
+2025-10-29 08:22:22 - Raw data received: 
+2025-10-29 08:22:22 - Using POST/FILES data
+2025-10-29 08:22:22 - Uploaded image saved: /uploads/menu/1761722542_yaaa.PNG
+2025-10-29 08:22:22 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722542_yaaa.PNG
+2025-10-29 08:22:22 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:22:22 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:22:53 - Raw data received: 
+2025-10-29 08:22:53 - Using POST/FILES data
+2025-10-29 08:22:53 - Uploaded image saved: /uploads/menu/1761722573_yaaa.PNG
+2025-10-29 08:22:53 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722573_yaaa.PNG
+2025-10-29 08:22:53 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:22:53 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:22:56 - Raw data received: 
+2025-10-29 08:22:56 - Using POST/FILES data
+2025-10-29 08:22:56 - Uploaded image saved: /uploads/menu/1761722576_yaaa.PNG
+2025-10-29 08:22:56 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722576_yaaa.PNG
+2025-10-29 08:22:56 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:22:56 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:00 - Raw data received: 
+2025-10-29 08:23:00 - Using POST/FILES data
+2025-10-29 08:23:00 - Uploaded image saved: /uploads/menu/1761722580_yaaa.PNG
+2025-10-29 08:23:00 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722580_yaaa.PNG
+2025-10-29 08:23:00 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:00 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:03 - Raw data received: 
+2025-10-29 08:23:03 - Using POST/FILES data
+2025-10-29 08:23:03 - Uploaded image saved: /uploads/menu/1761722583_yaaa.PNG
+2025-10-29 08:23:03 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722583_yaaa.PNG
+2025-10-29 08:23:03 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:03 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:06 - Raw data received: 
+2025-10-29 08:23:06 - Using POST/FILES data
+2025-10-29 08:23:06 - Uploaded image saved: /uploads/menu/1761722586_yaaa.PNG
+2025-10-29 08:23:06 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722586_yaaa.PNG
+2025-10-29 08:23:06 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:06 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:10 - Raw data received: 
+2025-10-29 08:23:10 - Using POST/FILES data
+2025-10-29 08:23:10 - Uploaded image saved: /uploads/menu/1761722590_yaaa.PNG
+2025-10-29 08:23:10 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722590_yaaa.PNG
+2025-10-29 08:23:10 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:10 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:33 - Raw data received: 
+2025-10-29 08:23:33 - Using POST/FILES data
+2025-10-29 08:23:33 - Uploaded image saved: /uploads/menu/1761722613_yaaa.PNG
+2025-10-29 08:23:33 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722613_yaaa.PNG
+2025-10-29 08:23:33 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:33 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:33 - Raw data received: 
+2025-10-29 08:23:33 - Using POST/FILES data
+2025-10-29 08:23:33 - Uploaded image saved: /uploads/menu/1761722613_yaaa.PNG
+2025-10-29 08:23:33 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722613_yaaa.PNG
+2025-10-29 08:23:33 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:33 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:38 - Raw data received: 
+2025-10-29 08:23:38 - Using POST/FILES data
+2025-10-29 08:23:38 - Uploaded image saved: /uploads/menu/1761722618_yaaa.PNG
+2025-10-29 08:23:38 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722618_yaaa.PNG
+2025-10-29 08:23:38 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:38 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:40 - Raw data received: 
+2025-10-29 08:23:40 - Using POST/FILES data
+2025-10-29 08:23:40 - Uploaded image saved: /uploads/menu/1761722620_yaaa.PNG
+2025-10-29 08:23:40 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722620_yaaa.PNG
+2025-10-29 08:23:40 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:40 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:23:47 - Raw data received: 
+2025-10-29 08:23:47 - Using POST/FILES data
+2025-10-29 08:23:47 - Uploaded image saved: /uploads/menu/1761722627_yaaa.PNG
+2025-10-29 08:23:47 - Processed data: name=tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761722627_yaaa.PNG
+2025-10-29 08:23:47 - Processed data: name=tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:23:47 - Error: Unknown column 'image' in 'field list'
+2025-10-29 08:30:42 - Raw data received: 
+2025-10-29 08:30:42 - Using POST/FILES data
+2025-10-29 08:30:42 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=
+2025-10-29 08:30:42 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:30:44 - Item added successfully with ID: 18
+2025-10-29 08:31:57 - Raw data received: 
+2025-10-29 08:31:57 - Using POST/FILES data
+2025-10-29 08:31:57 - Uploaded image saved: /uploads/menu/1761723117_yaaa.PNG
+2025-10-29 08:31:57 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723117_yaaa.PNG
+2025-10-29 08:31:57 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:31:57 - Item added successfully with ID: 19
+2025-10-29 08:32:08 - Raw data received: 
+2025-10-29 08:32:08 - Using POST/FILES data
+2025-10-29 08:32:08 - Uploaded image saved: /uploads/menu/1761723128_yaaa.PNG
+2025-10-29 08:32:08 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723128_yaaa.PNG
+2025-10-29 08:32:08 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:08 - Item added successfully with ID: 20
+2025-10-29 08:32:12 - Raw data received: 
+2025-10-29 08:32:12 - Using POST/FILES data
+2025-10-29 08:32:12 - Uploaded image saved: /uploads/menu/1761723132_yaaa.PNG
+2025-10-29 08:32:12 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723132_yaaa.PNG
+2025-10-29 08:32:12 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:12 - Item added successfully with ID: 21
+2025-10-29 08:32:12 - Raw data received: 
+2025-10-29 08:32:12 - Using POST/FILES data
+2025-10-29 08:32:12 - Uploaded image saved: /uploads/menu/1761723132_yaaa.PNG
+2025-10-29 08:32:12 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723132_yaaa.PNG
+2025-10-29 08:32:12 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:12 - Item added successfully with ID: 22
+2025-10-29 08:32:13 - Raw data received: 
+2025-10-29 08:32:13 - Using POST/FILES data
+2025-10-29 08:32:13 - Uploaded image saved: /uploads/menu/1761723133_yaaa.PNG
+2025-10-29 08:32:13 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723133_yaaa.PNG
+2025-10-29 08:32:13 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:13 - Item added successfully with ID: 23
+2025-10-29 08:32:13 - Raw data received: 
+2025-10-29 08:32:13 - Using POST/FILES data
+2025-10-29 08:32:13 - Uploaded image saved: /uploads/menu/1761723133_yaaa.PNG
+2025-10-29 08:32:13 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723133_yaaa.PNG
+2025-10-29 08:32:13 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:13 - Item added successfully with ID: 24
+2025-10-29 08:32:13 - Raw data received: 
+2025-10-29 08:32:13 - Using POST/FILES data
+2025-10-29 08:32:13 - Uploaded image saved: /uploads/menu/1761723133_yaaa.PNG
+2025-10-29 08:32:13 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723133_yaaa.PNG
+2025-10-29 08:32:13 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:14 - Item added successfully with ID: 25
+2025-10-29 08:32:14 - Raw data received: 
+2025-10-29 08:32:14 - Using POST/FILES data
+2025-10-29 08:32:14 - Uploaded image saved: /uploads/menu/1761723134_yaaa.PNG
+2025-10-29 08:32:14 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723134_yaaa.PNG
+2025-10-29 08:32:14 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:14 - Item added successfully with ID: 26
+2025-10-29 08:32:16 - Raw data received: 
+2025-10-29 08:32:16 - Using POST/FILES data
+2025-10-29 08:32:16 - Uploaded image saved: /uploads/menu/1761723136_yaaa.PNG
+2025-10-29 08:32:16 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723136_yaaa.PNG
+2025-10-29 08:32:16 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:16 - Item added successfully with ID: 27
+2025-10-29 08:32:16 - Raw data received: 
+2025-10-29 08:32:16 - Using POST/FILES data
+2025-10-29 08:32:16 - Uploaded image saved: /uploads/menu/1761723136_yaaa.PNG
+2025-10-29 08:32:16 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723136_yaaa.PNG
+2025-10-29 08:32:16 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:16 - Item added successfully with ID: 28
+2025-10-29 08:32:16 - Raw data received: 
+2025-10-29 08:32:16 - Using POST/FILES data
+2025-10-29 08:32:16 - Uploaded image saved: /uploads/menu/1761723136_yaaa.PNG
+2025-10-29 08:32:16 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723136_yaaa.PNG
+2025-10-29 08:32:16 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:16 - Item added successfully with ID: 29
+2025-10-29 08:32:17 - Raw data received: 
+2025-10-29 08:32:17 - Using POST/FILES data
+2025-10-29 08:32:17 - Uploaded image saved: /uploads/menu/1761723137_yaaa.PNG
+2025-10-29 08:32:17 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723137_yaaa.PNG
+2025-10-29 08:32:17 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:17 - Item added successfully with ID: 30
+2025-10-29 08:32:18 - Raw data received: 
+2025-10-29 08:32:18 - Using POST/FILES data
+2025-10-29 08:32:18 - Uploaded image saved: /uploads/menu/1761723138_yaaa.PNG
+2025-10-29 08:32:18 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723138_yaaa.PNG
+2025-10-29 08:32:18 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:18 - Item added successfully with ID: 31
+2025-10-29 08:32:18 - Raw data received: 
+2025-10-29 08:32:18 - Using POST/FILES data
+2025-10-29 08:32:18 - Uploaded image saved: /uploads/menu/1761723138_yaaa.PNG
+2025-10-29 08:32:18 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723138_yaaa.PNG
+2025-10-29 08:32:18 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:18 - Item added successfully with ID: 32
+2025-10-29 08:32:19 - Raw data received: 
+2025-10-29 08:32:19 - Using POST/FILES data
+2025-10-29 08:32:19 - Uploaded image saved: /uploads/menu/1761723139_yaaa.PNG
+2025-10-29 08:32:19 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723139_yaaa.PNG
+2025-10-29 08:32:19 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:19 - Item added successfully with ID: 33
+2025-10-29 08:32:19 - Raw data received: 
+2025-10-29 08:32:19 - Using POST/FILES data
+2025-10-29 08:32:19 - Uploaded image saved: /uploads/menu/1761723139_yaaa.PNG
+2025-10-29 08:32:19 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=/uploads/menu/1761723139_yaaa.PNG
+2025-10-29 08:32:20 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:32:20 - Item added successfully with ID: 34
+2025-10-29 08:33:03 - Raw data received: 
+2025-10-29 08:33:03 - Using POST/FILES data
+2025-10-29 08:33:03 - Processed data: name=Tsinelas, description=, price=110, category=Main Course, image=
+2025-10-29 08:33:03 - Processed data: name=Tsinelas, description=, price=110, category=Main Course
+2025-10-29 08:33:04 - Item added successfully with ID: 35
+2025-10-29 08:45:38 - Raw data received: 
+2025-10-29 08:45:38 - Using POST/FILES data
+2025-10-29 08:45:38 - Uploaded image saved: /uploads/menu/1761723938_yaaa.PNG
+2025-10-29 08:45:38 - Processed data: name=chicksilog, description=meduim rare, price=110, category=Appetizer, image=/uploads/menu/1761723938_yaaa.PNG
+2025-10-29 08:45:38 - Processed data: name=chicksilog, description=meduim rare, price=110, category=Appetizer
+2025-10-29 08:45:38 - Item added successfully with ID: 36
+2025-10-29 08:45:46 - Raw data received: 
+2025-10-29 08:45:46 - Using POST/FILES data
+2025-10-29 08:45:46 - Uploaded image saved: /uploads/menu/1761723946_yaaa.PNG
+2025-10-29 08:45:46 - Processed data: name=chicksilog, description=meduim rare, price=110, category=Appetizer, image=/uploads/menu/1761723946_yaaa.PNG
+2025-10-29 08:45:46 - Processed data: name=chicksilog, description=meduim rare, price=110, category=Appetizer
+2025-10-29 08:45:46 - Item added successfully with ID: 37
+2025-11-14 13:23:15 - Raw data received: 
+2025-11-14 13:23:15 - Using POST/FILES data
+2025-11-14 13:23:15 - Uploaded image saved: /uploads/menu/1763122995_image16.jpg
+2025-11-14 13:23:15 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763122995_image16.jpg
+2025-11-14 13:23:15 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:23:16 - Item added successfully with ID: 38
+2025-11-14 13:23:25 - Raw data received: 
+2025-11-14 13:23:25 - Using POST/FILES data
+2025-11-14 13:23:25 - Uploaded image saved: /uploads/menu/1763123005_image16.jpg
+2025-11-14 13:23:25 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123005_image16.jpg
+2025-11-14 13:23:25 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:23:25 - Item added successfully with ID: 39
+2025-11-14 13:23:28 - Raw data received: 
+2025-11-14 13:23:28 - Using POST/FILES data
+2025-11-14 13:23:28 - Uploaded image saved: /uploads/menu/1763123008_image16.jpg
+2025-11-14 13:23:28 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123008_image16.jpg
+2025-11-14 13:23:28 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:23:28 - Item added successfully with ID: 40
+2025-11-14 13:23:31 - Raw data received: 
+2025-11-14 13:23:31 - Using POST/FILES data
+2025-11-14 13:23:31 - Uploaded image saved: /uploads/menu/1763123011_image16.jpg
+2025-11-14 13:23:31 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123011_image16.jpg
+2025-11-14 13:23:31 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:23:31 - Item added successfully with ID: 41
+2025-11-14 13:23:34 - Raw data received: 
+2025-11-14 13:23:34 - Using POST/FILES data
+2025-11-14 13:23:34 - Uploaded image saved: /uploads/menu/1763123014_image16.jpg
+2025-11-14 13:23:34 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123014_image16.jpg
+2025-11-14 13:23:34 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:23:34 - Item added successfully with ID: 42
+2025-11-14 13:23:42 - Raw data received: 
+2025-11-14 13:23:42 - Using POST/FILES data
+2025-11-14 13:23:42 - Uploaded image saved: /uploads/menu/1763123022_image16.jpg
+2025-11-14 13:23:42 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123022_image16.jpg
+2025-11-14 13:23:42 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:23:42 - Item added successfully with ID: 43
+2025-11-14 13:24:12 - Raw data received: 
+2025-11-14 13:24:12 - Using POST/FILES data
+2025-11-14 13:24:12 - Uploaded image saved: /uploads/menu/1763123052_image16.jpg
+2025-11-14 13:24:12 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123052_image16.jpg
+2025-11-14 13:24:12 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:24:12 - Item added successfully with ID: 44
+2025-11-14 13:24:15 - Raw data received: 
+2025-11-14 13:24:15 - Using POST/FILES data
+2025-11-14 13:24:15 - Uploaded image saved: /uploads/menu/1763123055_image16.jpg
+2025-11-14 13:24:15 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123055_image16.jpg
+2025-11-14 13:24:15 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:24:15 - Item added successfully with ID: 45
+2025-11-14 13:24:18 - Raw data received: 
+2025-11-14 13:24:18 - Using POST/FILES data
+2025-11-14 13:24:18 - Uploaded image saved: /uploads/menu/1763123058_image16.jpg
+2025-11-14 13:24:18 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123058_image16.jpg
+2025-11-14 13:24:18 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:24:18 - Item added successfully with ID: 46
+2025-11-14 13:24:41 - Raw data received: 
+2025-11-14 13:24:41 - Using POST/FILES data
+2025-11-14 13:24:41 - Uploaded image saved: /uploads/menu/1763123081_image16.jpg
+2025-11-14 13:24:41 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123081_image16.jpg
+2025-11-14 13:24:41 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:24:41 - Item added successfully with ID: 47
+2025-11-14 13:24:59 - Raw data received: 
+2025-11-14 13:24:59 - Using POST/FILES data
+2025-11-14 13:24:59 - Uploaded image saved: /uploads/menu/1763123099_image16.jpg
+2025-11-14 13:24:59 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123099_image16.jpg
+2025-11-14 13:24:59 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:25:00 - Item added successfully with ID: 48
+2025-11-14 13:25:36 - Raw data received: 
+2025-11-14 13:25:36 - Using POST/FILES data
+2025-11-14 13:25:36 - Uploaded image saved: /uploads/menu/1763123136_image16.jpg
+2025-11-14 13:25:36 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123136_image16.jpg
+2025-11-14 13:25:36 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:25:36 - Item added successfully with ID: 49
+2025-11-14 13:25:50 - Raw data received: 
+2025-11-14 13:25:50 - Using POST/FILES data
+2025-11-14 13:25:50 - Uploaded image saved: /uploads/menu/1763123150_image16.jpg
+2025-11-14 13:25:50 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123150_image16.jpg
+2025-11-14 13:25:50 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:25:50 - Item added successfully with ID: 50
+2025-11-14 13:39:34 - Raw data received: 
+2025-11-14 13:39:34 - Using POST/FILES data
+2025-11-14 13:39:34 - Uploaded image saved: /uploads/menu/1763123974_image16.jpg
+2025-11-14 13:39:34 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123974_image16.jpg
+2025-11-14 13:39:34 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:39:36 - Item added successfully with ID: 51
+2025-11-14 13:39:46 - Raw data received: 
+2025-11-14 13:39:46 - Using POST/FILES data
+2025-11-14 13:39:46 - Uploaded image saved: /uploads/menu/1763123986_image16.jpg
+2025-11-14 13:39:46 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123986_image16.jpg
+2025-11-14 13:39:46 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:39:47 - Item added successfully with ID: 52
+2025-11-14 13:39:47 - Raw data received: 
+2025-11-14 13:39:47 - Using POST/FILES data
+2025-11-14 13:39:47 - Uploaded image saved: /uploads/menu/1763123987_image16.jpg
+2025-11-14 13:39:47 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123987_image16.jpg
+2025-11-14 13:39:47 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:39:47 - Item added successfully with ID: 53
+2025-11-14 13:39:51 - Raw data received: 
+2025-11-14 13:39:51 - Using POST/FILES data
+2025-11-14 13:39:52 - Uploaded image saved: /uploads/menu/1763123991_image16.jpg
+2025-11-14 13:39:52 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course, image=/uploads/menu/1763123991_image16.jpg
+2025-11-14 13:39:52 - Processed data: name=Rib Eye, description=Include mashed potato, buttered veggies and a hearty mushroom soup., price=698, category=Main Course
+2025-11-14 13:39:52 - Item added successfully with ID: 54
+2025-11-14 14:07:39 - Raw data received: 
+2025-11-14 14:07:39 - Using POST/FILES data
+2025-11-14 14:07:40 - Uploaded image saved: /uploads/menu/1763125660_image17.jpg
+2025-11-14 14:07:40 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer, image=/uploads/menu/1763125660_image17.jpg
+2025-11-14 14:07:40 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer
+2025-11-14 14:07:40 - Item added successfully with ID: 55
+2025-11-14 14:07:59 - Raw data received: 
+2025-11-14 14:07:59 - Using POST/FILES data
+2025-11-14 14:07:59 - Uploaded image saved: /uploads/menu/1763125679_image17.jpg
+2025-11-14 14:07:59 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer, image=/uploads/menu/1763125679_image17.jpg
+2025-11-14 14:07:59 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer
+2025-11-14 14:07:59 - Item added successfully with ID: 56
+2025-11-14 14:08:07 - Raw data received: 
+2025-11-14 14:08:07 - Using POST/FILES data
+2025-11-14 14:08:07 - Uploaded image saved: /uploads/menu/1763125687_image17.jpg
+2025-11-14 14:08:07 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer, image=/uploads/menu/1763125687_image17.jpg
+2025-11-14 14:08:07 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer
+2025-11-14 14:08:07 - Item added successfully with ID: 57
+2025-11-14 14:14:03 - Raw data received: 
+2025-11-14 14:14:03 - Using POST/FILES data
+2025-11-14 14:14:03 - Uploaded image saved: /uploads/menu/1763126043_image17.jpg
+2025-11-14 14:14:03 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer, image=/uploads/menu/1763126043_image17.jpg
+2025-11-14 14:14:03 - Processed data: name=Josephines Signature Salad, description=, price=298, category=Appetizer
+2025-11-14 14:14:04 - Item added successfully with ID: 58
+2025-11-19 02:49:36 - Raw data received: 
+2025-11-19 02:49:36 - Using POST/FILES data
+2025-11-19 02:49:36 - Uploaded image saved: /uploads/menu/1763516976_image45.jpg
+2025-11-19 02:49:36 - Processed data: name=Tapsilog, description=sulit, price=90, category=Main Course, image=/uploads/menu/1763516976_image45.jpg
+2025-11-19 02:49:36 - Processed data: name=Tapsilog, description=sulit, price=90, category=Main Course
+2025-11-19 02:49:37 - Item added successfully with ID: 59
+2025-11-19 03:00:52 - Raw data received: 
+2025-11-19 03:00:52 - Using POST/FILES data
+2025-11-19 03:00:52 - Uploaded image saved: /uploads/menu/1763517652_image17.jpg
+2025-11-19 03:00:52 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763517652_image17.jpg
+2025-11-19 03:00:52 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:00:53 - Item added successfully with ID: 60
+2025-11-19 03:00:59 - Raw data received: 
+2025-11-19 03:00:59 - Using POST/FILES data
+2025-11-19 03:00:59 - Uploaded image saved: /uploads/menu/1763517659_image17.jpg
+2025-11-19 03:00:59 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763517659_image17.jpg
+2025-11-19 03:00:59 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:00:59 - Item added successfully with ID: 61
+2025-11-19 03:01:05 - Raw data received: 
+2025-11-19 03:01:05 - Using POST/FILES data
+2025-11-19 03:01:05 - Uploaded image saved: /uploads/menu/1763517665_image17.jpg
+2025-11-19 03:01:05 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763517665_image17.jpg
+2025-11-19 03:01:05 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:01:05 - Item added successfully with ID: 62
+2025-11-19 03:12:40 - Raw data received: 
+2025-11-19 03:12:40 - Using POST/FILES data
+2025-11-19 03:12:40 - Uploaded image saved: /uploads/menu/1763518360_image17.jpg
+2025-11-19 03:12:40 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763518360_image17.jpg
+2025-11-19 03:12:40 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:12:40 - Item added successfully with ID: 63
+2025-11-19 03:12:46 - Raw data received: 
+2025-11-19 03:12:46 - Using POST/FILES data
+2025-11-19 03:12:46 - Uploaded image saved: /uploads/menu/1763518366_image17.jpg
+2025-11-19 03:12:46 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763518366_image17.jpg
+2025-11-19 03:12:46 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:12:46 - Item added successfully with ID: 64
+2025-11-19 03:13:07 - Raw data received: 
+2025-11-19 03:13:07 - Using POST/FILES data
+2025-11-19 03:13:07 - Uploaded image saved: /uploads/menu/1763518387_image17.jpg
+2025-11-19 03:13:07 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763518387_image17.jpg
+2025-11-19 03:13:07 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:13:07 - Item added successfully with ID: 65
+2025-11-19 03:13:10 - Raw data received: 
+2025-11-19 03:13:10 - Using POST/FILES data
+2025-11-19 03:13:10 - Uploaded image saved: /uploads/menu/1763518390_image17.jpg
+2025-11-19 03:13:10 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763518390_image17.jpg
+2025-11-19 03:13:10 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:13:10 - Item added successfully with ID: 66
+2025-11-19 03:13:15 - Raw data received: 
+2025-11-19 03:13:15 - Using POST/FILES data
+2025-11-19 03:13:15 - Uploaded image saved: /uploads/menu/1763518395_image17.jpg
+2025-11-19 03:13:15 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763518395_image17.jpg
+2025-11-19 03:13:15 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:13:15 - Item added successfully with ID: 67
+2025-11-19 03:20:42 - Raw data received: 
+2025-11-19 03:20:42 - Using POST/FILES data
+2025-11-19 03:20:42 - Uploaded image saved: /uploads/menu/1763518842_image16.jpg
+2025-11-19 03:20:42 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763518842_image16.jpg
+2025-11-19 03:20:42 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:20:42 - Item added successfully with ID: 68
+2025-11-19 03:20:46 - Raw data received: 
+2025-11-19 03:20:46 - Using POST/FILES data
+2025-11-19 03:20:46 - Uploaded image saved: /uploads/menu/1763518846_image16.jpg
+2025-11-19 03:20:46 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763518846_image16.jpg
+2025-11-19 03:20:46 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:20:46 - Item added successfully with ID: 69
+2025-11-19 03:20:50 - Raw data received: 
+2025-11-19 03:20:50 - Using POST/FILES data
+2025-11-19 03:20:50 - Uploaded image saved: /uploads/menu/1763518850_image16.jpg
+2025-11-19 03:20:50 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763518850_image16.jpg
+2025-11-19 03:20:50 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:20:50 - Item added successfully with ID: 70
+2025-11-19 03:22:00 - Raw data received: 
+2025-11-19 03:22:00 - Using POST/FILES data
+2025-11-19 03:22:00 - Uploaded image saved: /uploads/menu/1763518920_image16.jpg
+2025-11-19 03:22:00 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763518920_image16.jpg
+2025-11-19 03:22:00 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:22:00 - Item added successfully with ID: 71
+2025-11-19 03:22:08 - Raw data received: 
+2025-11-19 03:22:08 - Using POST/FILES data
+2025-11-19 03:22:08 - Uploaded image saved: /uploads/menu/1763518928_image16.jpg
+2025-11-19 03:22:08 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763518928_image16.jpg
+2025-11-19 03:22:08 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:22:08 - Item added successfully with ID: 72
+2025-11-19 03:22:12 - Raw data received: 
+2025-11-19 03:22:12 - Using POST/FILES data
+2025-11-19 03:22:12 - Uploaded image saved: /uploads/menu/1763518932_image16.jpg
+2025-11-19 03:22:12 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763518932_image16.jpg
+2025-11-19 03:22:12 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:22:12 - Item added successfully with ID: 73
+2025-11-19 03:23:30 - Raw data received: 
+2025-11-19 03:23:30 - Using POST/FILES data
+2025-11-19 03:23:30 - Uploaded image saved: /uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:23:30 - Item added successfully with ID: 74
+2025-11-19 03:23:30 - Raw data received: 
+2025-11-19 03:23:30 - Using POST/FILES data
+2025-11-19 03:23:30 - Uploaded image saved: /uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:23:30 - Item added successfully with ID: 75
+2025-11-19 03:23:30 - Raw data received: 
+2025-11-19 03:23:30 - Using POST/FILES data
+2025-11-19 03:23:30 - Uploaded image saved: /uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:23:30 - Item added successfully with ID: 76
+2025-11-19 03:23:30 - Raw data received: 
+2025-11-19 03:23:30 - Using POST/FILES data
+2025-11-19 03:23:30 - Uploaded image saved: /uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763519010_image16.jpg
+2025-11-19 03:23:30 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:23:30 - Item added successfully with ID: 77
+2025-11-19 03:23:31 - Raw data received: 
+2025-11-19 03:23:31 - Using POST/FILES data
+2025-11-19 03:23:31 - Uploaded image saved: /uploads/menu/1763519011_image16.jpg
+2025-11-19 03:23:31 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage, image=/uploads/menu/1763519011_image16.jpg
+2025-11-19 03:23:31 - Processed data: name=Tapsilog, description=a, price=110, category=Beverage
+2025-11-19 03:23:31 - Item added successfully with ID: 78
+2025-11-19 03:24:05 - Raw data received: 
+2025-11-19 03:24:05 - Using POST/FILES data
+2025-11-19 03:24:05 - Uploaded image saved: /uploads/menu/1763519045_image45.jpg
+2025-11-19 03:24:05 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763519045_image45.jpg
+2025-11-19 03:24:05 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:24:06 - Item added successfully with ID: 79
+2025-11-19 03:24:12 - Raw data received: 
+2025-11-19 03:24:12 - Using POST/FILES data
+2025-11-19 03:24:12 - Uploaded image saved: /uploads/menu/1763519052_image45.jpg
+2025-11-19 03:24:12 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course, image=/uploads/menu/1763519052_image45.jpg
+2025-11-19 03:24:12 - Processed data: name=Tapsilog, description=a, price=110, category=Main Course
+2025-11-19 03:24:12 - Item added successfully with ID: 80
+2025-11-19 03:24:44 - Raw data received: 
+2025-11-19 03:24:44 - Using POST/FILES data
+2025-11-19 03:24:44 - Uploaded image saved: /uploads/menu/1763519084_image45.jpg
+2025-11-19 03:24:44 - Processed data: name=Sapatos, description=anime, price=110, category=Main Course, image=/uploads/menu/1763519084_image45.jpg
+2025-11-19 03:24:44 - Processed data: name=Sapatos, description=anime, price=110, category=Main Course
+2025-11-19 03:24:45 - Item added successfully with ID: 81
+2025-11-19 03:25:18 - Raw data received: 
+2025-11-19 03:25:18 - Using POST/FILES data
+2025-11-19 03:25:18 - Uploaded image saved: /uploads/menu/1763519118_image45.jpg
+2025-11-19 03:25:18 - Processed data: name=Sapatos, description=anime, price=110, category=Main Course, image=/uploads/menu/1763519118_image45.jpg
+2025-11-19 03:25:18 - Processed data: name=Sapatos, description=anime, price=110, category=Main Course
+2025-11-19 03:25:18 - Item added successfully with ID: 82
+2025-11-19 03:26:22 - Raw data received: 
+2025-11-19 03:26:22 - Using POST/FILES data
+2025-11-19 03:26:22 - Uploaded image saved: /uploads/menu/1763519182_image45.jpg
+2025-11-19 03:26:22 - Processed data: name=Sapatos, description=janime, price=110, category=Main Course, image=/uploads/menu/1763519182_image45.jpg
+2025-11-19 03:26:22 - Processed data: name=Sapatos, description=janime, price=110, category=Main Course
+2025-11-19 03:26:22 - Item added successfully with ID: 83
+2025-11-19 03:26:30 - Raw data received: 
+2025-11-19 03:26:30 - Using POST/FILES data
+2025-11-19 03:26:30 - Uploaded image saved: /uploads/menu/1763519190_image45.jpg
+2025-11-19 03:26:30 - Processed data: name=Sapatos, description=janime, price=110, category=Main Course, image=/uploads/menu/1763519190_image45.jpg
+2025-11-19 03:26:30 - Processed data: name=Sapatos, description=janime, price=110, category=Main Course
+2025-11-19 03:26:30 - Item added successfully with ID: 84
+2025-11-19 03:30:08 - Raw data received: 
+2025-11-19 03:30:08 - Using POST/FILES data
+2025-11-19 03:30:08 - Uploaded image saved: /uploads/menu/1763519408_image17.jpg
+2025-11-19 03:30:08 - Processed data: name=Tsinelas, description=anime, price=110, category=Main Course, image=/uploads/menu/1763519408_image17.jpg
+2025-11-19 03:30:08 - Processed data: name=Tsinelas, description=anime, price=110, category=Main Course
+2025-11-19 03:30:08 - Item added successfully with ID: 85
+2025-11-19 03:30:14 - Raw data received: 
+2025-11-19 03:30:14 - Using POST/FILES data
+2025-11-19 03:30:14 - Uploaded image saved: /uploads/menu/1763519414_image17.jpg
+2025-11-19 03:30:14 - Processed data: name=Tsinelas, description=anime, price=110, category=Main Course, image=/uploads/menu/1763519414_image17.jpg
+2025-11-19 03:30:14 - Processed data: name=Tsinelas, description=anime, price=110, category=Main Course
+2025-11-19 03:30:14 - Item added successfully with ID: 86
+2025-11-19 03:36:20 - Raw data received: 
+2025-11-19 03:36:20 - Using POST/FILES data
+2025-11-19 03:36:20 - Uploaded image saved: /uploads/menu/1763519780_image15.jpg
+2025-11-19 03:36:20 - Processed data: name=Paa, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763519780_image15.jpg
+2025-11-19 03:36:20 - Processed data: name=Paa, description=anime, price=199, category=Appetizer
+2025-11-19 03:36:20 - Item added successfully with ID: 87
+2025-11-19 03:36:30 - Raw data received: 
+2025-11-19 03:36:30 - Using POST/FILES data
+2025-11-19 03:36:30 - Uploaded image saved: /uploads/menu/1763519790_image15.jpg
+2025-11-19 03:36:30 - Processed data: name=Paa, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763519790_image15.jpg
+2025-11-19 03:36:30 - Processed data: name=Paa, description=anime, price=199, category=Appetizer
+2025-11-19 03:36:30 - Item added successfully with ID: 88
+2025-11-19 03:36:37 - Raw data received: 
+2025-11-19 03:36:37 - Using POST/FILES data
+2025-11-19 03:36:37 - Uploaded image saved: /uploads/menu/1763519797_image15.jpg
+2025-11-19 03:36:37 - Processed data: name=Paa, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763519797_image15.jpg
+2025-11-19 03:36:37 - Processed data: name=Paa, description=anime, price=199, category=Appetizer
+2025-11-19 03:36:37 - Item added successfully with ID: 89
+2025-11-19 03:42:18 - Raw data received: 
+2025-11-19 03:42:18 - Using POST/FILES data
+2025-11-19 03:42:18 - Uploaded image saved: /uploads/menu/1763520138_image17.jpg
+2025-11-19 03:42:18 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520138_image17.jpg
+2025-11-19 03:42:18 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:18 - Item added successfully with ID: 90
+2025-11-19 03:42:23 - Raw data received: 
+2025-11-19 03:42:23 - Using POST/FILES data
+2025-11-19 03:42:23 - Uploaded image saved: /uploads/menu/1763520143_image17.jpg
+2025-11-19 03:42:23 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520143_image17.jpg
+2025-11-19 03:42:23 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:23 - Item added successfully with ID: 91
+2025-11-19 03:42:24 - Raw data received: 
+2025-11-19 03:42:24 - Using POST/FILES data
+2025-11-19 03:42:24 - Uploaded image saved: /uploads/menu/1763520144_image17.jpg
+2025-11-19 03:42:24 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520144_image17.jpg
+2025-11-19 03:42:24 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:24 - Item added successfully with ID: 92
+2025-11-19 03:42:24 - Raw data received: 
+2025-11-19 03:42:24 - Using POST/FILES data
+2025-11-19 03:42:24 - Uploaded image saved: /uploads/menu/1763520144_image17.jpg
+2025-11-19 03:42:24 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520144_image17.jpg
+2025-11-19 03:42:24 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:24 - Item added successfully with ID: 93
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 94
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 95
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 96
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 97
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 98
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 99
+2025-11-19 03:42:25 - Raw data received: 
+2025-11-19 03:42:25 - Using POST/FILES data
+2025-11-19 03:42:25 - Uploaded image saved: /uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763520145_image17.jpg
+2025-11-19 03:42:25 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 03:42:25 - Item added successfully with ID: 100
+2025-11-19 07:20:07 - Raw data received: 
+2025-11-19 07:20:07 - Using POST/FILES data
+2025-11-19 07:20:07 - Uploaded image saved: /uploads/menu/1763533207_image17.jpg
+2025-11-19 07:20:07 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer, image=/uploads/menu/1763533207_image17.jpg
+2025-11-19 07:20:07 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer
+2025-11-19 07:20:08 - Item added successfully with ID: 101
+2025-11-19 07:20:13 - Raw data received: 
+2025-11-19 07:20:13 - Using POST/FILES data
+2025-11-19 07:20:13 - Uploaded image saved: /uploads/menu/1763533213_image17.jpg
+2025-11-19 07:20:13 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer, image=/uploads/menu/1763533213_image17.jpg
+2025-11-19 07:20:13 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer
+2025-11-19 07:20:13 - Item added successfully with ID: 102
+2025-11-19 07:20:14 - Raw data received: 
+2025-11-19 07:20:14 - Using POST/FILES data
+2025-11-19 07:20:14 - Uploaded image saved: /uploads/menu/1763533214_image17.jpg
+2025-11-19 07:20:14 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer, image=/uploads/menu/1763533214_image17.jpg
+2025-11-19 07:20:14 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer
+2025-11-19 07:20:14 - Item added successfully with ID: 103
+2025-11-19 07:20:14 - Raw data received: 
+2025-11-19 07:20:14 - Using POST/FILES data
+2025-11-19 07:20:14 - Uploaded image saved: /uploads/menu/1763533214_image17.jpg
+2025-11-19 07:20:14 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer, image=/uploads/menu/1763533214_image17.jpg
+2025-11-19 07:20:14 - Processed data: name=Tuhod, description=aray, price=100, category=Appetizer
+2025-11-19 07:20:14 - Item added successfully with ID: 104
+2025-11-19 07:23:22 - Raw data received: 
+2025-11-19 07:23:22 - Using POST/FILES data
+2025-11-19 07:23:22 - Uploaded image saved: /uploads/menu/1763533402_image15.jpg
+2025-11-19 07:23:22 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer, image=/uploads/menu/1763533402_image15.jpg
+2025-11-19 07:23:22 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer
+2025-11-19 07:23:22 - Item added successfully with ID: 105
+2025-11-19 07:23:25 - Raw data received: 
+2025-11-19 07:23:25 - Using POST/FILES data
+2025-11-19 07:23:25 - Uploaded image saved: /uploads/menu/1763533405_image15.jpg
+2025-11-19 07:23:25 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer, image=/uploads/menu/1763533405_image15.jpg
+2025-11-19 07:23:25 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer
+2025-11-19 07:23:25 - Item added successfully with ID: 106
+2025-11-19 07:23:27 - Raw data received: 
+2025-11-19 07:23:27 - Using POST/FILES data
+2025-11-19 07:23:27 - Uploaded image saved: /uploads/menu/1763533407_image15.jpg
+2025-11-19 07:23:27 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer, image=/uploads/menu/1763533407_image15.jpg
+2025-11-19 07:23:27 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer
+2025-11-19 07:23:27 - Item added successfully with ID: 107
+2025-11-19 07:23:27 - Raw data received: 
+2025-11-19 07:23:27 - Using POST/FILES data
+2025-11-19 07:23:27 - Uploaded image saved: /uploads/menu/1763533407_image15.jpg
+2025-11-19 07:23:27 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer, image=/uploads/menu/1763533407_image15.jpg
+2025-11-19 07:23:27 - Processed data: name=CSPC9, description=2:30, price=230, category=Appetizer
+2025-11-19 07:23:27 - Item added successfully with ID: 108
+2025-11-19 07:26:47 - Raw data received: 
+2025-11-19 07:26:47 - Using POST/FILES data
+2025-11-19 07:26:47 - Uploaded image saved: /uploads/menu/1763533607_image17.jpg
+2025-11-19 07:26:47 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763533607_image17.jpg
+2025-11-19 07:26:47 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 07:26:47 - Item added successfully with ID: 109
+2025-11-19 07:26:55 - Raw data received: 
+2025-11-19 07:26:55 - Using POST/FILES data
+2025-11-19 07:26:55 - Uploaded image saved: /uploads/menu/1763533615_image17.jpg
+2025-11-19 07:26:55 - Processed data: name=anime, description=anime, price=199, category=Appetizer, image=/uploads/menu/1763533615_image17.jpg
+2025-11-19 07:26:55 - Processed data: name=anime, description=anime, price=199, category=Appetizer
+2025-11-19 07:26:55 - Item added successfully with ID: 110
+2025-11-19 07:30:37 - Raw data received: 
+2025-11-19 07:30:37 - Using POST/FILES data
+2025-11-19 07:30:37 - Uploaded image saved: /uploads/menu/1763533837_image15.jpg
+2025-11-19 07:30:37 - Processed data: name=wow, description=wow, price=199, category=Main Course, image=/uploads/menu/1763533837_image15.jpg
+2025-11-19 07:30:37 - Processed data: name=wow, description=wow, price=199, category=Main Course
+2025-11-19 07:30:37 - Item added successfully with ID: 111
+2025-11-19 07:39:20 - Raw data received: 
+2025-11-19 07:39:20 - Using POST/FILES data
+2025-11-19 07:39:20 - Uploaded image saved: /uploads/menu/1763534360_image17.jpg
+2025-11-19 07:39:20 - Processed data: name=wow, description=wow, price=199, category=Main Course, image=/uploads/menu/1763534360_image17.jpg
+2025-11-19 07:39:20 - Processed data: name=wow, description=wow, price=199, category=Main Course
+2025-11-19 07:39:20 - Item added successfully with ID: 112
+2025-11-19 07:39:21 - Raw data received: 
+2025-11-19 07:39:21 - Using POST/FILES data
+2025-11-19 07:39:21 - Uploaded image saved: /uploads/menu/1763534361_image17.jpg
+2025-11-19 07:39:21 - Processed data: name=wow, description=wow, price=199, category=Main Course, image=/uploads/menu/1763534361_image17.jpg
+2025-11-19 07:39:21 - Processed data: name=wow, description=wow, price=199, category=Main Course
+2025-11-19 07:39:21 - Item added successfully with ID: 113
+2025-11-19 07:39:21 - Raw data received: 
+2025-11-19 07:39:21 - Using POST/FILES data
+2025-11-19 07:39:21 - Uploaded image saved: /uploads/menu/1763534361_image17.jpg
+2025-11-19 07:39:21 - Processed data: name=wow, description=wow, price=199, category=Main Course, image=/uploads/menu/1763534361_image17.jpg
+2025-11-19 07:39:21 - Processed data: name=wow, description=wow, price=199, category=Main Course
+2025-11-19 07:39:21 - Item added successfully with ID: 114
+2025-11-19 07:39:22 - Raw data received: 
+2025-11-19 07:39:22 - Using POST/FILES data
+2025-11-19 07:39:22 - Uploaded image saved: /uploads/menu/1763534362_image17.jpg
+2025-11-19 07:39:22 - Processed data: name=wow, description=wow, price=199, category=Main Course, image=/uploads/menu/1763534362_image17.jpg
+2025-11-19 07:39:22 - Processed data: name=wow, description=wow, price=199, category=Main Course
+2025-11-19 07:39:22 - Item added successfully with ID: 115
+2025-11-20 03:39:07 - Raw data received: 
+2025-11-20 03:39:07 - Using POST/FILES data
+2025-11-20 03:39:07 - Uploaded image saved: /uploads/menu/1763606347_image17.jpg
+2025-11-20 03:39:07 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course, image=/uploads/menu/1763606347_image17.jpg
+2025-11-20 03:39:07 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course
+2025-11-20 03:39:07 - Item added successfully with ID: 116
+2025-11-20 03:39:10 - Raw data received: 
+2025-11-20 03:39:10 - Using POST/FILES data
+2025-11-20 03:39:10 - Uploaded image saved: /uploads/menu/1763606350_image17.jpg
+2025-11-20 03:39:10 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course, image=/uploads/menu/1763606350_image17.jpg
+2025-11-20 03:39:10 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course
+2025-11-20 03:39:10 - Item added successfully with ID: 117
+2025-11-20 03:45:19 - Raw data received: 
+2025-11-20 03:45:19 - Using POST/FILES data
+2025-11-20 03:45:19 - Uploaded image saved: /uploads/menu/1763606719_image17.jpg
+2025-11-20 03:45:19 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course, image=/uploads/menu/1763606719_image17.jpg
+2025-11-20 03:45:19 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course
+2025-11-20 03:45:19 - Item added successfully with ID: 118
+2025-11-20 03:45:21 - Raw data received: 
+2025-11-20 03:45:21 - Using POST/FILES data
+2025-11-20 03:45:21 - Uploaded image saved: /uploads/menu/1763606721_image17.jpg
+2025-11-20 03:45:21 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course, image=/uploads/menu/1763606721_image17.jpg
+2025-11-20 03:45:21 - Processed data: name=jskdnjdsk, description=ajhdiudh, price=110, category=Main Course
+2025-11-20 03:45:21 - Item added successfully with ID: 119
+2025-11-20 03:47:13 - Raw data received: 
+2025-11-20 03:47:13 - Using POST/FILES data
+2025-11-20 03:47:13 - Uploaded image saved: /uploads/menu/1763606833_image13.jpg
+2025-11-20 03:47:13 - Processed data: name=amin yan, description=absjdjgad, price=110, category=Appetizer, image=/uploads/menu/1763606833_image13.jpg
+2025-11-20 03:47:13 - Processed data: name=amin yan, description=absjdjgad, price=110, category=Appetizer
+2025-11-20 03:47:14 - Item added successfully with ID: 120
+2025-11-20 03:48:59 - Raw data received: 
+2025-11-20 03:48:59 - Using POST/FILES data
+2025-11-20 03:48:59 - Uploaded image saved: /uploads/menu/1763606939_image17.jpg
+2025-11-20 03:48:59 - Processed data: name=iewoeur, description=nmsvbhjv, price=87, category=Main Course, image=/uploads/menu/1763606939_image17.jpg
+2025-11-20 03:48:59 - Processed data: name=iewoeur, description=nmsvbhjv, price=87, category=Main Course
+2025-11-20 03:48:59 - Item added successfully with ID: 121
+2025-11-20 03:59:31 - Raw data received: 
+2025-11-20 03:59:31 - Using POST/FILES data
+2025-11-20 03:59:31 - Uploaded image saved: /uploads/menu/1763607571_image16.jpg
+2025-11-20 03:59:31 - Processed data: name=jfgeuorg, description=hfbedf vjsa, price=5678, category=Appetizer, image=/uploads/menu/1763607571_image16.jpg
+2025-11-20 03:59:31 - Processed data: name=jfgeuorg, description=hfbedf vjsa, price=5678, category=Appetizer
+2025-11-20 03:59:31 - Item added successfully with ID: 122
+2025-11-20 04:01:03 - Raw data received: 
+2025-11-20 04:01:03 - Using POST/FILES data
+2025-11-20 04:01:03 - Uploaded image saved: /uploads/menu/1763607663_image14.jpg
+2025-11-20 04:01:03 - Processed data: name=dkfjvbdjf, description=dsnvjklfh, price=56789, category=Dessert, image=/uploads/menu/1763607663_image14.jpg
+2025-11-20 04:01:03 - Processed data: name=dkfjvbdjf, description=dsnvjklfh, price=56789, category=Dessert
+2025-11-20 04:01:04 - Item added successfully with ID: 123
